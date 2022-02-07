@@ -1,0 +1,21 @@
+
+*.jar binary
+*.aar binary
+*.so binary
+
+#$ find . -type f | perl -ne 'print $1 if m/\.([^.\/]+)$/' | sort -u
+#aar
+#aidl
+#apk 
+#gitattributes
+#h
+#jar
+#md5
+#pom
+#sample
+#sha1
+#so
+#txt
+#xml
+
+#not sure how the client module.apk is in there...

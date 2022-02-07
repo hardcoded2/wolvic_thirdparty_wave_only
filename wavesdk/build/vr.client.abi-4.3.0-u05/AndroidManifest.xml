@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.htc.vr.client.abi"
+    android:versionCode="4003000"
+    android:versionName="4.3.0-u05" >
+
+    <uses-sdk
+        android:minSdkVersion="25"
+        android:targetSdkVersion="29" />
+
+</manifest>

@@ -1,0 +1,5 @@
+int anim fade_in 0x7f010001
+int anim fade_out 0x7f010002
+int string wvr_vr_mode_component 0x7f140001
+int style Animation_Activity_fade_in_out 0x7f150001
+int style Theme_WaveVR_Black 0x7f150002
