@@ -2,6 +2,10 @@
 *.jar binary
 *.aar binary
 *.so binary
+*.apk binary
+*.bmp binary
+*.jpg binary
+*.png binary
 
 #$ find . -type f | perl -ne 'print $1 if m/\.([^.\/]+)$/' | sort -u
 #aar
@@ -19,3 +23,27 @@
 #xml
 
 #not sure how the client module.apk is in there...
+#waverepo (master)
+#$ find . -type f | perl -ne 'print $1 if m/\.([^.\/]+)$/' | sort -u
+#aar
+#apk
+#bat
+#bmp
+#c
+#cpp
+#glsl
+#gradle
+#h
+#jar
+#java
+#jpg
+#json
+#md
+#md5
+#mk
+#png
+#pom
+#properties
+#sha1
+#txt
+#xml
