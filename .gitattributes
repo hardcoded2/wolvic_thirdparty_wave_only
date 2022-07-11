@@ -1,3 +1,5 @@
+# Set default behaviour, in case users don't have core.autocrlf set.
+*          text=auto
 
 *.jar binary
 *.aar binary
@@ -47,3 +49,26 @@
 #sha1
 #txt
 #xml
+
+
+# Java sources
+*.java          text diff=java
+*.kt            text diff=kotlin
+*.groovy        text diff=java
+*.scala         text diff=java
+*.gradle        text diff=java
+*.gradle.kts    text diff=kotlin
+
+#other that show up as modified when they shouldn't when copying over by hand
+*.md            text
+*.pom text
+*.xml text
+*.json text
+*.txt text
+*.glsl text
+README text
+*.mk text
+*.cpp text
+*.h text
+*.gradle text
+*.properties text
